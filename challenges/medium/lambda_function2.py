@@ -23,7 +23,7 @@ import json
 def lambda_handler(event, context=None):
 
     word = event['word']
-    res = []
+    res = 0
 
     if word == None:
         return {
